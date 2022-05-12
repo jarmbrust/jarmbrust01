@@ -24,7 +24,7 @@ export const About = () => {
      <Box sx={ styles.layout }>
         <Typography variant="body1" component="p" sx={{ maxWidth: '65%' }}>
           I am a writer, software engineer, and (mediocre) artist living in Colorado with
-          my wife Lacey, and out dogs, cats, and other critters.
+          my wife Lacey, and our dogs, cats, and other critters.
         </Typography>
       </Box>
     </>
