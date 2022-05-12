@@ -8,6 +8,7 @@ import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { MainPage } from './components/MainPage';
 import { Projects } from './components/Projects';
+import { MiscPage } from './components/MiscPage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,6 +22,7 @@ root.render(
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="misc" element={<MiscPage />} />
           <Route
             path="*"
             element={
